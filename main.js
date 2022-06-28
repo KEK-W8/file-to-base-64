@@ -1,7 +1,7 @@
 import './style.css'
 
 document.querySelector('#app').innerHTML = `
-  <h1>Upload the file</h1>
+  <h1>File encoder</h1>
   <input id="file-uploader" type="file">
   <span id="encoded-file-box"></span>
 `
