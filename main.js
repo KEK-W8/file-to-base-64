@@ -3,11 +3,11 @@ import './style.css'
 document.querySelector('#app').innerHTML = `
   <h1>Upload the file</h1>
   <input id="file-uploader" type="file">
-  <span id="encoded-file"></span>
+  <span id="encoded-file-box"></span>
 `
 
 const fileUploader = document.querySelector('#file-uploader');
-const encodedFileBox = document.querySelector('#encoded-file');
+const encodedFileBox = document.querySelector('#encoded-file-box');
 
 fileUploader.addEventListener('change', ()=>{
     const uploadedFile = fileUploader['files'][0];
